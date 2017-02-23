@@ -1,5 +1,12 @@
 ---
 - hosts: localhost
-  remote_user: admin
+  connection: local
+#  remote_user: root
+#  environment:
+#    group_id: "{{ ec2_groups }}"
+#    keypair: "{{ ec2_keypair }}"
+#    region: "{{ aws_region }}"
+#    aws_access_key: "{{ aws_access_key }}"
+#    aws_secret_key: "{{ aws_secret_key }}"
   roles:
-    - ec2-debian
+    - ansible-role-ec2-debian
