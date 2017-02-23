@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: admin
   roles:
-    - atrakic.ec2-debian
+    - ec2-debian
