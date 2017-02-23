@@ -1,4 +1,7 @@
-# ansible-role-ec2-debian
+
+# **Ansible Role: ansible-role-ec2-debian** 
+
+[![Build Status](https://travis-ci.org/atrakic/ansible-role-ec2-debian.svg?branch=master)](https://travis-ci.org/atrakic/ansible-role-ec2-debian)
 
 This role installs Debian on ec2:  
 
@@ -27,5 +30,5 @@ BSD
 Author Information
 ------------------
 
-This role was created by A. Trakic.
+This role was created by A.Trakic.
 
